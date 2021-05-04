@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laboratoire</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <title>Mon Laboratoire</title>
+  </head>
+  <body>
+    <section class="container-main">
+      <h1>Mon laboratoire de test</h1>
+      <div class="container-item container-img-hover">
+        <a href="#"><div class="discord"></div></a>
+      </div>
+
+      <div class="container-item container-style-hover">
+        <div class="btn-style-hover-1">Hover Me</div>
+      </div>
+
+      <div class="container-item container-onglets">
+        <div class="container">
+          <nav class="tabs">
+            <div class="tab active" data-id="one">
+              <span class="step-number">1</span>
+              <span class="step-title">Ajouter</span>
+            </div>
+            <div class="tab" data-id="two">
+              <span class="step-number">2</span>
+              <span class="step-title">Vérifier</span>
+            </div>
+            <div class="tab" data-id="three">
+              <span class="step-number">3</span>
+              <span class="step-title">Infos</span>
+            </div>
+            <div class="tab" data-id="four">
+              <span class="step-number">4</span>
+              <span class="step-title">Envoi</span>
+            </div>
+          </nav>
+
+          <div class="contents">
+            <div class="content active" id="one">
+              <i class="fas fa-cart-arrow-down"></i>
+              <p class="content-text">
+                Ajoutez des produits à votre panier
+              </p>
+            </div>
+            <div class="content" id="two">
+              <i class="fas fa-tasks"></i>
+              <p class="content-text">
+               Contrôlez votre liste d'achats
+              </p>
+            </div>
+            <div class="content" id="three">
+              <i class="fas fa-id-card"></i>
+              <p class="content-text">
+                Renseignez vos informations de livraison
+              </p>
+            </div>
+            <div class="content" id="four">
+              <i class="fas fa-shipping-fast"></i>
+              <p class="content-text">
+                Vous serez livrés en 48h chrono !
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="public/js/app.js"></script>
+  </body>
 </html>
